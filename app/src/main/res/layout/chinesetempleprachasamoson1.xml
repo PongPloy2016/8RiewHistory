@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chinesetempleprachasamoson1"
+    >
+
+
+    <Button
+        android:text="กลับหน้าเมนู"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home2"
+        android:layout_weight="0.37"
+        android:layout_gravity="bottom"
+        android:textStyle="normal|bold"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:text="หน้าถัดไป"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnnext2"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/actionbar_bg"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+</LinearLayout>

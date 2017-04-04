@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btnsothon"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="วัดหลวงพ่อโสธร " />
+
+    <Button
+        android:text="ตลาดบ้านใหม่  "
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnmarket"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="สวนมรุพงษ์ "
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnmarupong"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="วัดจีนประชาสโมสร "
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsamoson"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="วัดชมโพธยาราม "
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnwatchram"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="วัดปิตุลาธิราชรังสฤษฎิ์ "
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnrangsarit"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="วัดสมานรัตนาราม "
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnrattanaram"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="วัดอุภัยภาติการาม "
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnupai"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="ศาลหลักเมือง "
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnshrine"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="สำนักงานทรัพย์สิน"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:id="@+id/btncpbthai"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.33" />
+
+    <Button
+        android:text="กลับหน้าหลัก"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
