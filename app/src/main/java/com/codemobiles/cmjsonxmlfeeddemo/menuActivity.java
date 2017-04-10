@@ -127,7 +127,8 @@ public class menuActivity extends Activity implements View.OnClickListener {
 
             case R.id.button3 :
 
-                onBackPressed();
+                Intent tt = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(tt);
                 break;
 
         }
