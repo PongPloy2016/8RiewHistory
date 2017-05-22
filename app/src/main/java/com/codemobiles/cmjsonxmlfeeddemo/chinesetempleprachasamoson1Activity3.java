@@ -1,12 +1,14 @@
 package com.codemobiles.cmjsonxmlfeeddemo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import io.paperdb.Paper;
 import tcking.github.com.giraffeplayer.GiraffePlayer;
 import tcking.github.com.giraffeplayer.GiraffePlayerActivity;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
@@ -69,7 +71,16 @@ public class chinesetempleprachasamoson1Activity3 extends Activity {
                     player.pause();
                 } else if (v.getId() == R.id.btn_toggle) {
                     player.toggleFullScreen();
-                } else if (v.getId() == R.id.btn_back) {
+
+
+                }
+                else if (v.getId() == R.id.btn_map) {
+
+                    Paper.book().write("MapCheck", "4"); // Primitive
+                    Intent q = new Intent(getApplicationContext(), MapActivity.class);
+                    startActivity(q);
+                }
+                else if (v.getId() == R.id.btn_back) {
                     onBackPressed();
                 }
             }

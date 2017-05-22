@@ -1,14 +1,14 @@
 package com.codemobiles.cmjsonxmlfeeddemo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.Toast;
 
+import io.paperdb.Paper;
 import tcking.github.com.giraffeplayer.GiraffePlayer;
-import tcking.github.com.giraffeplayer.GiraffePlayerActivity;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
 
 /**
@@ -71,7 +71,13 @@ public class luanActivity3 extends Activity {
                     player.pause();
                 } else if (v.getId() == R.id.btn_toggle) {
                     player.toggleFullScreen();
-                } else if (v.getId() == R.id.btn_back) {
+                } else if (v.getId() == R.id.btn_map) {
+
+                    Paper.book().write("MapCheck", "1"); // Primitive
+                    Intent q = new Intent(getApplicationContext(), MapActivity.class);
+                    startActivity(q);
+                }
+                else if (v.getId() == R.id.btn_back) {
                     onBackPressed();
                 }
             }
@@ -81,6 +87,8 @@ public class luanActivity3 extends Activity {
         findViewById(R.id.btn_start).setOnClickListener(clickListener);
         findViewById(R.id.btn_toggle).setOnClickListener(clickListener);
         findViewById(R.id.btn_back).setOnClickListener(clickListener);
+        findViewById(R.id.btn_map).setOnClickListener(clickListener);
+        findViewById(R.id.btn_map).setOnClickListener(clickListener);
 
     }
 

@@ -65,61 +65,64 @@ public class menuActivity extends Activity implements View.OnClickListener {
         switch ( v.getId() )
         {
             case R.id.btnsothon:
-
-
-
+                //1
                 Intent i = new Intent(getApplicationContext(), luanActivity1.class);
                 startActivity(i);
 
                 break;
             case R.id.btnmarket :
+                //2
                 Intent j = new Intent(getApplicationContext(), newhomeActivity1.class);
                 startActivity(j);
 
                 break;
             case R.id.btnmarupong :
-
+                //3
                 Intent k = new Intent(getApplicationContext(), fortActivity1.class);
                 startActivity(k);
                 break;
 
             case R.id.btnsamoson :
+
+                //4
                 Intent zz = new Intent(getApplicationContext(), chinesetempleprachasamoson1Activity1.class);
                 startActivity(zz);
 
                 break;
 
             case R.id.btnwatchram :
-
+                //5
                 Intent w = new Intent(getApplicationContext(), watchramActivity1.class);
                 startActivity(w);
                 break;
             case R.id.btnrangsarit :
-
+                //6
                 Intent e = new Intent(getApplicationContext(), royalActivity1.class);
                 startActivity(e);
                 break;
 
             case R.id.btnrattanaram :
+
+                //7
                 Intent r = new Intent(getApplicationContext(), rattanaramActivity1.class);
                 startActivity(r);
 
                 break;
 
             case R.id.btnupai :
-
+                //8
                 Intent t = new Intent(getApplicationContext(), patikaActivity1.class);
                 startActivity(t);
                 break;
 
             case R.id.btnshrine :
-
+                //9
                 Intent y = new Intent(getApplicationContext(), shrineActivity1.class);
                 startActivity(y);
                 break;
 
             case R.id.btncpbthai :
-
+                //10
                 Intent u = new Intent(getApplicationContext(), cpb1Activity.class);
                 startActivity(u);
                 break;

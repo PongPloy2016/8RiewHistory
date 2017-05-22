@@ -4,6 +4,8 @@ import android.app.Application;
 
 import com.longtailvideo.jwplayer.cast.CastManager;
 
+import io.paperdb.Paper;
+
 public class MyApplication extends Application {
 
     @Override
@@ -13,5 +15,6 @@ public class MyApplication extends Application {
         // The CastManager must be initialized in the Application's context to prevent
         // issues with garbage collection.
         CastManager.initialize(this);
+        Paper.init(getApplicationContext());
     }
 }
