@@ -90,6 +90,7 @@ public class chinesetempleprachasamoson1Activity3 extends Activity {
         findViewById(R.id.btn_start).setOnClickListener(clickListener);
         findViewById(R.id.btn_toggle).setOnClickListener(clickListener);
         findViewById(R.id.btn_back).setOnClickListener(clickListener);
+        findViewById(R.id.btn_map).setOnClickListener(clickListener);
 
     }
 
